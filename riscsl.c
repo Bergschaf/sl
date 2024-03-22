@@ -39,7 +39,7 @@
 /*                                              by Toyoda Masashi 1992/12/11 */
 
 #include <signal.h>
-#include <unistd.h>
+//#include <unistd.h>
 #include "sl.h"
 #include <stdio.h>
 
