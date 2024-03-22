@@ -42,6 +42,7 @@
 //#include <unistd.h>
 #include "sl.h"
 #include <stdio.h>
+#include <windows.h>
 
 void add_smoke(int y, int x);
 void add_man(int y, int x);
@@ -142,7 +143,7 @@ int main(int argc, char *argv[])
         //getch();
         //refresh();
         push_canvas();
-        usleep(40000);
+        Sleep(40);
         clear_canvas();
     }
     //mvcur(0, COLS - 1, LINES - 1, 0);
